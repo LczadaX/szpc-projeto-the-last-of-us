@@ -33,7 +33,6 @@ OBJERIVO - quando clicarmos no botão temos que mostrar a imagem de fundo correp
 })
 
 function mostaImagemdefundo(indice) {
-    console.log(imagens);
     imagens[indice].classList.add('ativa');
 }
 
